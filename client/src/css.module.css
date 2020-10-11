@@ -1,0 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+:root {
+  --colour1: #05386b;
+  --colour2: #379683;
+  --colour3: #5cdb95;
+  --colour4: #8ee4af;
+  --colour5: #edf5e1;
+  --text-primary: #333;
+}
+.container {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-primary);
+  background-color: var(--colour3);
+}

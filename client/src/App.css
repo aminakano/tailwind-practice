@@ -1,0 +1,20 @@
+:root {
+  --colour1: #05386b;
+  --colour2: #379683;
+  --colour3: #5cdb95;
+  --colour4: #8ee4af;
+  --colour5: #edf5e1;
+  --text-primary: #333;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+.App, .body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-primary);
+  background-color: var(--colour3);
+}
