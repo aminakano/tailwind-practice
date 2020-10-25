@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aminakano/gulp-project.git"
+    "url": "git+https://github.com/aminakano/tailwind-practice.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aminakano/gulp-project/issues"
+    "url": "https://github.com/aminakano/tailwind-practice/issues"
   },
-  "homepage": "https://github.com/aminakano/gulp-project#readme"
+  "homepage": "https://github.com/aminakano/tailwind-practice#readme"
 }
