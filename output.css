@@ -21630,6 +21630,58 @@ video {
           animation: bounce 1s infinite;
 }
 
+.btn {
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  --bg-opacity: 1;
+  background-color: #38b2ac;
+  background-color: rgba(56, 178, 172, var(--bg-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #38b2ac;
+  border-color: rgba(56, 178, 172, var(--border-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.btn:hover {
+  --bg-opacity: 1;
+  background-color: #2c7a7b;
+  background-color: rgba(44, 122, 123, var(--bg-opacity));
+  --border-opacity: 1;
+  border-color: #2c7a7b;
+  border-color: rgba(44, 122, 123, var(--border-opacity));
+}
+
+.btn-hollow {
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #38b2ac;
+  color: rgba(56, 178, 172, var(--text-opacity));
+  background-color: transparent;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #38b2ac;
+  border-color: rgba(56, 178, 172, var(--border-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.btn-hollow:hover {
+  --bg-opacity: 1;
+  background-color: #38b2ac;
+  background-color: rgba(56, 178, 172, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -3,3 +3,19 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.btn {
+  @apply rounded text-white bg-teal-500 border border-teal-500 px-6 py-3;
+}
+
+.btn:hover {
+  @apply bg-teal-700 border-teal-700;
+}
+
+.btn-hollow {
+  @apply rounded text-teal-500 bg-transparent border  border-teal-500 px-6 py-3;
+}
+
+.btn-hollow:hover {
+  @apply bg-teal-500 text-white;
+}
